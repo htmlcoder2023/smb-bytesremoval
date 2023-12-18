@@ -1,0 +1,35 @@
+;level 1-1
+E_GroundArea6:
+$1e - Removes one goomba from Page 2, Block 7, moves one goomba from Page 3, Block 9 to Page 2, Block 9 and moves a group of goombas from Page 4, Block 4 to Page 3, Block 4. Also makes the pipe to the underground area glitched and send you back to the start.
+$c2 - This should prevent spawning all sorts of junk enemies in the level, but now that it is removed, junk enemies (enemies obviously not intended to be placed there) spawn. The list of junk enemies: 1. a red Cheep Cheep on Page 2, Block 1.  2. A red Koopa Paratroopa on Page 2, Block 12.  3. Two green Koopa Troopas on Page 3, Block 9.  4. A red Koopa Paratroopa on Page 4, Block 12. 5. A red Koopa Troopa on Page 6, Block 15. 6. A goomba on Page 7, Block 13.  7. A goomba on Page 7, Block 15.  8. A up and down platform on Page 8, Block 8.  9. A red Koopa Paratroopa on Page 9, Block 11.  10. A goomba on Page 10, Block 1.  11. A left and right platform on Page 10, Block 7.  12. A left and right platform on Page 10, Block 15.  13. A red Koopa Troopa on Page 11, Block 15.  14. A red Koopa Paratroopa on Page 12, Block 3.  15. A red Koopa Troopa on Page 13, Block 4.  16. A left and right platform on Page 13, Block 4.
+$00 - Same as removing $c2, but every enemy spawns one page later. For example, the red Cheep Cheep that spawns on Page 2, Block 1 now spawns on Page 3, Block 1, and the group of Green Koopa Troopas spawn at Page 4, Block 9. The glitched entrance leads back to the start.
+$6b - Same as removing $00, but the underground area is now properly loaded when Mario enters the fourth pipe.
+$06 - Same as removing $6b, but the red Cheep Cheep is closer to ground level and the red Cheep Cheep spawns at Page 3, Block 6.
+$8b - Same as removing $c2, except that the first goomba at the start spawns correctly, the red Cheep Cheep does not spawn, and the pipe to the underground area sends you to the correct location.
+$86 - Same as removing $8b.
+$63 - Same as removing $06, but the first goomba spawns in the correct place and the second goomba replaces the red Cheep Cheep and spawns in the correct place.
+$b7 - Same as removing $63, but the red Koopa Paratroopa spawns significantly higher in the sky.
+$0f - Same as removing $b7, but everything spawns one page later and the first red Koopa Paratroopa is replaced by a group of two goombas that spawn after the third pipe. The group of green Koopa Troopas spawns at Page 5, Block 9.
+$05 - Same as removing $0f.
+
+$03 - Same as removing $05, but the glitched enemies after the group of goombas after the third pipe spawn two pages later, with the group of Green Koopa Troopas spawning on Page 7, Block 9.
+$06 - Same as removing $03.
+$23 - Same as removing $06, but one goomba spawns on the row of bricks on top of the second mushroom power-up.
+$06 - Same as removing $23.
+$4b - Same as removing $06, but the second goomba on the row of bricks on top of the second mushroom power-up spawns along with the first goomba.
+$b7 - Same as removing $4b, but the group of green Koopa Troopas is moved to Page 7, Block 2, which is the same place as where the second group of goombas spawn.
+$bb - Same as removing $b7, but the group of green Koopa Troopas at Page 7, Block 2 is replaced by a group of Goombas, which were the enemies that were supposed to spawn at that location.
+$00 - Same as removing $bb.
+$5b - Same as removing $00, but the green Koopa Troopa spawns in the intended location, under the third power-up of the level.
+$b7 - Same as removing $5b, but two green Koopa Troopas spawn where the group of Goombas after the lone Koopa Troopa is supposed to spawn.
+
+$fb - Same as removing $b7, but a group of Goombas replace the group of Koopa Troopas. Weirdly, a group of Koopa Troopas spawn in the same place as the group of Goombas.
+$37 - Same as removing $fb, but a group of Koopa Troopas spawn where the first two of four goombas should spawn at Page 8, Block 13. The red Paratroopa is also skipped, and it never spawns.
+$3b - Same as removing $37, but the green Koopa Troopa group is skipped entirely and is replaced by two goombas at Page 8, Block 13. 
+$b7 - Same as removing $3b.
+$0f - Same as removing $b7, but the third and fourth goombas at Page 9, Block 1 spawn. The glitched enemies spawn one page later, with a up and down platform spawning on Page 12, Block 8 now spawning at Page 13, Block 8.
+$0b - Same as removing $0f, but the glitched enemies are completely gone.
+$1b - Same as removing $0b, but a glitched red Koopa Troopa spawns after the flagpole and lands on the castle brick.
+$37 - Same as removing $1b.
+
+$ff - Same as removing $37, but the group of goombas spawn at Page 11, Block 15 like intended.
