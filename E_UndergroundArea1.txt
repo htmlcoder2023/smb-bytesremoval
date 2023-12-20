@@ -1,0 +1,52 @@
+;level 1-2
+E_UndergroundArea1:
+$0b - Removing this has a few different effects. Two goombas at the start and a goomba under a coin block are removed and a glitched buzzy beetle spawns in the same x-position as the first group of Koopa Troopas. The pipe to the coin room leads back to the start of the level. If you die after the last set of platforms, the pipe to the coin room sends you to the warp zone, but you cannot access the minus world in this way. You can warp normally, though.
+$86 - Same as removing $0b.
+$1a - Every warp is the same as removing $86, but the enemy placements are significantly different. At the start, only one of the two in the group of goombas spawn. The glitched enemies spawn one page later, with the buzzy beetle being placed at Page 4, Block 13, instead of Page 3, Block 13. The enemies affected are: 1. A glitched buzzy beetle that spawned on Page 3, Block 13.  2. The first group of Koopa Troopas on Page 3, Block 13.  2. Koopa Troopa on Page 4, Block 12.  3. Goomba on Page 4, Block 15.  4. Goomba on Page 5, Block 1.  5. Goomba on Page 5, Block 10.  6. A group of Goombas on Page 5, Block 12.
+$06 - Same as removing $1a.
+$db - Same as removing $86, but the two goombas at the start spawn.
+$06 - Same as removing $db.
+$de - Warps are the same as removing $06. However, the enemy placements are different. The goomba that supposed to spawn below the coin block spawns in the correct place. All glitched enemies spawn one page earlier than enemies after removing $06. The affected enemies are: 1. A glitched buzzy beetle that spawned on Page 3, Block 13.  2. The first group of Koopa Troopas on Page 3, Block 13.  2. Koopa Troopa on Page 4, Block 12.  3. Goomba on Page 4, Block 15.  4. Goomba on Page 5, Block 1.  5. Goomba on Page 5, Block 10.  6. A group of Goombas on Page 5, Block 12.
+$c2 - Well, removing this essentially softlocks the game. First, every pipe leads back to the start of the level. Two, there is no warp zone flag, so the screen does not continue scrolling once Mario reaches the exit pipe. This makes it impossible to warp out of the level. The other effect is the seemingly random spawning of random enemies throughout the level, such as fire bars and glitched red Paratroopas. Only the group of goombas at the start and the goomba under the coin block are not glitched. Everything after that is glitched, meaning that even the up and down platforms at the end of the level do not spawn. Here are the glitched enemies: 1. Group of two Koopa Troopas on Page 3, Block 1.  2. Red Paratroopa on Page 6, Block 4.  3. Short Fire-Bar on Page 6, Block 12.  4. Short Fire-Bar at Page 7, Block 9.  5. Group of 2 Goombas at Page 8, Block 9.  6. Group of Two Koopa Troopas at Page 8, Block 16.  7. Short Up Platforms at Page 9, Block 3.  8. Short Fire-Bar at Page 10, Block 9.  9. Short Fire-Bar at Page 10, Block 10.  10. Long Falling Platform at Page 11, Block 3.
+$02 - Same as removing $c2, but all glitched enemies spawn one page later. There is a glitched Koopa Troopa that has Buzzy Beetle tiles that appear on Page 6, Block 9.
+$f0 - Same as removing $02, but the pipes go to the coin room $42 instead of back to the start. Removing this still softlocks the game, though.
+$3b - Same as removing $f0, but the first group of Koopa Troopas spawn at Page 4, Block 14.
+
+$bb - Same as removing $3b, but the first group of Koopa Troopas (glitched enemy after removing $c2) spawn in the correct location as well as a group of Goombas and a single Goomba under a coin block. The other glitched enemies spawn in the same locations as removing $c2. 
+$80 - Same as removing $bb.
+$eb - Same as removing $80, but the Koopa Troopa on Page 4, Block 12 spawns in the correct location.
+$06 - Same as removing $eb, but a Cheep Cheep spawns at Page 4, Block 15. This is where a Goomba is supposed to spawn at.
+$0b - Same as removing $06, but a Goomba replaces the Cheep Cheep at Page 4, Block 15.
+$86 - Same as removing $0b, but a Koopa Troopa with Buzzy Beetle tiles spawns at Page 5, Block 1. Also, the short Fire-Bar at Page 7, Block 9 is replace by a long Fire-Bar.
+$93 - Same as removing $86, but the glitched Koopa Troopa with Buzzy Beetle tiles is replaced by a Goomba.
+$06 - Same as removing $93, but the red Koopa Paratroopa at Page 6, Block 4 is missing.
+$f0 - Same as removing $06, but every glitched enemy spawns one page earlier. A Cheep Cheep spawns at Page 11, Block 3. A non-glitched Goomba also spawns at Page 5, Block 10.
+$39 - Same as removing $f0, but a Fire-Bar that spawns on Page 5, Block 12 is missing. A red Koopa Paratroopa spawns on Page 5, Block 16.
+
+$0f - Same as removing $39, but the red Koopa Paratroopa on Page 5, Block 16, is removed and is replaced by a group of Goombas on Page 5, Block 13.
+$06 - Same as removing $0f, but every glitched enemy is removed.
+$60 - Same as removing $06, but all glitched enemies spawn one page later.
+$b8 - Same as removing $60, but the Fire-Bar that spawns on Page 7, Block 12 spawns on Page 7, Block 7.
+$1b - Same as removing $b8, but the Long Fire-Bar at Page 8, Block 9 is now a short Fire-Bar. A group of three Goombas also spawns at Page 7, Block 2.
+$86 - Same as removing $1b, but the short Fire-Bar at Page 7, Block 2 is now a long Fire-Bar and it was moved to Page 8, Block 2.
+$a0 - Same as removing $86, but the long Fire-Bar at Page 8, Block 7, was replaced by a Goomba.
+$b9 - Same as removing $a0.
+$b7 - Same as removing $b9, but a group of Goombas spawn at a higher y-position than their glitched counterparts.
+$27 - Same as removing $b7, but a group of Koopa Troopas was moved from Page 9, Block 16 to Page 10, Block 9. The up and down platforms were removed.
+
+$bd - Same as removing $27, but a single platform that moves down and repeats forever spawns. Also, the Fire-Bars that spawn on Page 11, Block 9 and Page 11, Block 10 are moved to Page 10, Block 10. A falling platform also spawns at Page 11, Block 3. The group of two Koopa Troopas at Page 10, Block 9 were removed.
+$27 - Same as removing $bd, but the short Up Platforms spawn at Page 9, Block 12.
+$2b - Same as removing $27, but the short Up Platforms are removed and two platforms move down forever and loop when they are at the the bottom.
+$83 - Same as removing $2b, but one Fire-Bar is removed entirely and one Fire-Bar is now long and was relocated to Page 10, Block 3.
+$a1 - Same as removing $83, but a red Koopa Troopa replaces the Fire-Bar on Page 10, Block 3.
+$26 - Same as removing $a1, but the platform at Page 11, Block 3 is now at Page 11, Block 11.
+$a9 - Same as removing $26, but a single platform goes up forever and loops back to the bottom once it reaches the top. It spawns at Page 10, Block 11. A Cheep Cheep also spawns at Page 11, Block 3. The falling platform at Page 11, Block 11 is also removed.
+$26 - Same as removing $a9, but the Cheep Cheep is removed.
+$ee - Same as removing $26, but the single platform that goes up forever is replaced by two platforms that go up forever. Also, the Warp Zone is accessible, but the pipe that leads to the exit still goes to the coin room $42.
+$25 - Same as removing $ee, but now the Warp Zone is inacessible. It also spawns a glitched group of Koopa Troopas at Page 11, Block 10.
+$0b - Same as removing $25.
+
+$27 - Same as removing $0b, but the exit pipe leads to the overworld as it supposed to.
+$b4 - Same as removing $27, but the Koopa Troopas spawn at Page 11, Block 9 instead of Page 11, Block 10.
+
+$ff - Removing this spawns a Koopa Troopa at Page 11, Block 9 and a Buzzy Beetle at Page 12, Block 5. It removes scroll stop and you cannot access World 4 or World 2 from the Warp Zone because the pipes intended to go to those locations takes you to the Minus World. You can go in the middle pipe to go to World 5. You can also softlock youself on the wall past the Warp Zone by scrolling the Warp Zone off-screen. If you enter Minus World, the game will crash.
