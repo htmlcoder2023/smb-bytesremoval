@@ -6,3 +6,5 @@ To further understand what pages are, they are chunks of level data that are 16 
 Greated level editor at https://www.romhacking.net/utilities/1468/
 
 Original disassembly with collected files from https://github.com/jakiki6/smb1-disasm/blob/master/smb.asm
+
+I am not actively working on this right now.
